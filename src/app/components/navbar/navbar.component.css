@@ -1,0 +1,24 @@
+.nav {
+  background-color: rgb(5, 5, 44);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+  border-bottom: white;
+}
+.dog a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 30px;
+}
+.hi a {
+  float: right;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+}

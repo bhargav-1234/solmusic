@@ -1,0 +1,26 @@
+.love-care-part {
+  color: white;
+  padding-top: 170px;
+}
+.ban {
+  background-color: rgb(5, 5, 61);
+  height: 820px;
+}
+.content {
+  color: white;
+}
+
+.btn {
+  border-radius: 30px;
+  background-color: crimson;
+  color: white;
+  height: 60px;
+  width: 200px;
+}
+.btn1 {
+  border-radius: 30px;
+  background-color: midnightblue;
+  color: white;
+  height: 60px;
+  width: 200px;
+}
