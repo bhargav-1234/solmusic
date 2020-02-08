@@ -1,1 +1,34 @@
-<p>artists works!</p>
+<div class="love-care-part">
+  <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+    <div class="love-img">
+      <h1>
+        Our Concept & <br />
+        artists
+      </h1>
+    </div>
+    <div class="love-care">
+      <p>
+        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+        commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+      <!-- <button mat-button>Read more</button> -->
+    </div>
+  </div>
+  <div class="three">
+    <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+      <ng-container *ngFor="let item of data">
+        <div class="work">
+          <div class="bg-circle">
+            <img src="{{ item.img }}" alt="img" class="img-in-circle" />
+          </div>
+          <div class="work-body">
+            <h3>{{ item.head }}</h3>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

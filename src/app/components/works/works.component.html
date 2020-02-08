@@ -1,1 +1,23 @@
-<p>works works!</p>
+<section fxLayoutAlign="center">
+  <div>
+    <div class="heading">
+      <h1>How it works</h1>
+    </div>
+
+    <div class="three">
+      <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+        <ng-container *ngFor="let item of content">
+          <div class="work">
+            <div class="bg-circle">
+              <img src="{{ item.img }}" alt="img" class="img-in-circle" />
+            </div>
+            <div class="work-body">
+              <h2>{{ item.head }}</h2>
+              <p>{{ item.para }}</p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

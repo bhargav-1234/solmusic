@@ -1,0 +1,36 @@
+.work-body {
+  text-align: justify;
+  max-width: 350px;
+  padding: 10px;
+  line-height: 30px;
+}
+h2 {
+  color: white;
+}
+section {
+  background-image: url("../../../assets/img/how-to-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  text-align: justify;
+  width: 100%;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+}
+p {
+  color: rgb(172, 173, 173);
+}
+
+.bg-circle {
+  background-color: #fc0254;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.img-in-circle {
+  margin-left: 25px;
+  margin-top: 14px;
+}

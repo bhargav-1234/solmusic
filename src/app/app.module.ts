@@ -5,8 +5,6 @@ import { AppRoutingModule } from "./app-routing.module";
 // -------------------------------components----------------------------------//
 import { AppComponent } from "./app.component";
 
-import { WorksComponent } from "./components/works/works.component";
-import { ArtistsComponent } from "./components/artists/artists.component";
 import { SubscriptionComponent } from "./components/subscription/subscription.component";
 import { PremimumComponent } from "./components/premimum/premimum.component";
 import { FooterComponent } from "./components/footer/footer.component";
@@ -22,8 +20,6 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 @NgModule({
   declarations: [
     AppComponent,
-    WorksComponent,
-    ArtistsComponent,
     SubscriptionComponent,
     PremimumComponent,
     FooterComponent,

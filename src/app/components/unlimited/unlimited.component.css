@@ -2,8 +2,14 @@ h1 {
   text-align: justify;
   max-width: 1000px;
   height: 200px;
+  font-size: 55px;
 }
 .love-care {
   text-align: justify;
   max-width: 600px;
+}
+.love-care-part {
+  padding-top: 100px;
+  background-color: white;
+  height: 320px;
 }

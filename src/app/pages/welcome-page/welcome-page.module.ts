@@ -9,8 +9,11 @@ import { WelcomePageComponent } from "./welcome-page.component";
 import { NavbarComponent } from "../../components/navbar/navbar.component";
 import { BannerComponent } from "../../components/banner/banner.component";
 import { UnlimitedComponent } from "../../components/unlimited/unlimited.component";
+import { WorksComponent } from "../../components/works/works.component";
+import { ArtistsComponent } from "../../components/artists/artists.component";
 //----------------------services-----------------------------//
-
+import { WorksService } from "../../components/works/works.service";
+import { ArtistsService } from "src/app/components/artists/artists.service";
 const routes: Routes = [{ path: "", component: WelcomePageComponent }];
 
 @NgModule({
@@ -18,8 +21,11 @@ const routes: Routes = [{ path: "", component: WelcomePageComponent }];
     WelcomePageComponent,
     NavbarComponent,
     BannerComponent,
-    UnlimitedComponent
+    UnlimitedComponent,
+    WorksComponent,
+    ArtistsComponent
   ],
-  imports: [CommonModule, SharedModule, RouterModule.forRoot(routes)]
+  imports: [CommonModule, SharedModule, RouterModule.forRoot(routes)],
+  providers: [WorksService, ArtistsService]
 })
 export class WelcomePageModule {}
