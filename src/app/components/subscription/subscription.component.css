@@ -1,0 +1,51 @@
+.love-care-part {
+  color: white;
+  padding-top: 100px;
+}
+.ban {
+  background-color: rgb(5, 5, 61);
+  height: 620px;
+}
+.content {
+  color: white;
+}
+
+.btn {
+  border-radius: 30px;
+  background-color: rgb(250, 45, 86);
+  color: white;
+  height: 62px;
+  width: 200px;
+}
+.card {
+  background-color: rgb(21, 21, 66);
+
+  border-radius: 40px;
+
+  text-align: center;
+  padding: 100px;
+}
+.love-care p {
+  text-align: justify;
+  max-width: 540px;
+  line-height: 25px;
+  color: rgb(146, 152, 156);
+}
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 28px;
+}
+
+.tick-mark {
+  margin: 10px;
+}
+
+.para {
+  margin-top: 50px;
+}
+
+/* span {
+  padding-top: 80px;
+} */

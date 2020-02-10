@@ -1,1 +1,32 @@
-<p>subscription works!</p>
+<div class="ban">
+  <div class="love-care-part">
+    <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+      <div class="love-care">
+        <h1>Subscription <br />from $15/month</h1>
+        <h3>Start a free trial now</h3>
+        <p>
+          Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+          gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <button mat-button class="btn">TRY IT NOW</button> &nbsp; &nbsp; &nbsp;
+      </div>
+      <div class="card">
+        <div *ngFor="let item of date">
+          <div fxLayout="row">
+            <div>
+              <img src="{{ item.img }}" alt="img" class="tick-mark" />
+            </div>
+
+            <div>
+              <span class="para">{{ item.par }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
