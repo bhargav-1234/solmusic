@@ -1,0 +1,300 @@
+java script:
+it waas founded by marc andreessen in the year of 1995 may,
+first it was called as mocha and later it's renamed as live script and again it's renamed as javascript in the 
+year of 1995 december.  
+*.javascrit is not compiled language, but it is a translated language 
+
+Application of java script:
+1.client side validation
+2.Dynamic drop-down menus
+3.Displaying data and time
+4.displaying pop -up windows and dialog boxesu(like an alert dialog box,confirm dialog box ad prompt dialog box)
+5.Displaying clocks etc. 
+
+Features of javascript:
+1.All web browsers support javaScript as they built-in execution environments
+2.javascript follows thwe syntaxs and structure of the C programming language
+3.javascript is weakly-typed language
+4.javascript is a objected oriented language
+5.it is a light-weighted languagea and interpreted language
+6.javascript is a case sensitive language
+7.javascript is supported in several operating systems including,windows,macOS etc
+8.it provides good control to the users over  the web browsers
+
+javascript example:
+it is easy to code.javascript provides 3 places to put the javascript code 
+1.within body tag 
+2.within head tag
+3.external javascript files
+
+Ex:
+<html>
+<body>   
+<script type="text/javascript">
+document.write("javascript is a simple language for javapoint learners");
+</script>
+</body>
+</html>
+
+*.script tag(<script> </scrippt>) specifies theat we are using javascript.
+*.the "text/javascript" is the content type tha provides information to the browser about the data.
+*. the "document.write()" funtion is used to display dynamic content through javascript.
+  
+External javascript file:
+we can create external javascript filean embed it in many html page.
+*.it provides r"re usability because single javascript file can be used in several html psges.
+*.external javascript file must be saved by ".js" extention.it is recommended to embed all jvascript filesin to single file.it
+increases the speed of the webpage.
+
+                                     /*************************javascript Basics*******************************/
+A).Javascript Comment:
+the javascript comments are meaningful way to deliver the message.it is used to add the information about the code, warnings or 
+suggetions so that end user can easily interpret the code.
+*.javascript comments is ignored by the javascript engine i.e. embedded in the browser.
+
+Advantages of javascript comments:
+there are mainly to advantages of javascript  comments.
+1.To make code easy to understand it can used to elaborated the code so that code so that end user can easily understand the code.
+2.To avoid the unnessasary code it can also be to avoid code being  executed.sometimes, we add the code to perform some action,but
+after sometime, there may be need to disable the code.im such case,it is better to use comments.
+
+Types of javascript comments:
+there are two tyoes of js comments,they are
+1.Single-line comment
+2.Multi-line comment
+
+1).JS Single-line comment:
+it is represented by double forward slashes "//". it can be used before and after statement.  
+
+Ex:
+<script>
+//hi this Bhargav
+document.write("hello Bhargav");   //before statement//
+</script>
+
+<script>
+
+document.write("hello Bhargav");//hi this Bhargav   //this is after statement//
+</script>
+
+
+2).JS Multi-line comment:
+It can be used to add singl and multi line comments.so ,it is more convenient.
+
+B).Javascript Variable:
+A javascript variable is simply a name of storage location.there are two types of variables 
+1.Local variable
+2.Global variable
+
+*.there are some rules while declaring the javascript variable (also known as identifiers).
+
+1).Name must start with a letter (a to z or A to Z),underscore(_),or doller($) sign.
+2).After first letter we can use digits (0 to 9).
+3).javascript variables are case sensitive,for example x and X are different variables.   
+ 
+
+1).local variable:
+A Javascript local variable is declared inside block or function.it is accessible within the function or block only.
+ Ex:
+<script>
+function abc (){
+var x=10;//local variable
+ }
+</script>
+
+or
+
+<script>
+if(10>3){
+var y=20;//Javascript local variable
+}
+</script>
+
+2).Javascript Global variable:
+A Javascript global varible is accessable from function.A variable i.e. declared out side the function or declared with window
+object is known as global variable.
+
+Ex:
+<script>  
+var data=200;//gloabal variable  
+function a(){  
+document.writeln(data);  
+}                                           o/p: 200 200
+function b(){  
+document.writeln(data);  
+}  
+a();//calling JavaScript function  
+b();  
+</script>  
+
+C).Javascript Data types:
+ javascript provides different data types to hold different types of values.there are two types of data types in javascript .
+
+1.primitive data type
+2.Non primitive data type
+
+*.javascript is a dynamic type language,means you don't need to specify type of the variable because it is dynamically used by 
+javascript engine.you need to use "var" here to specify the data type. it can hold any values such as numbers,strings etc.
+
+Ex:
+var a=10;//number
+var b="hi there";//string
+
+1.Javascript primitive data types:
+there are five types of primitive data types in javascript.
+
+a.string   :Represents sequence of character ex:"hi"
+b.number   :Represents numeric values ex:100
+c.boolean  :Represents boolean values either false or true
+d.undefined:Represents undefined values
+e.null     :Represents null i.e. no value at all
+
+2.Non-primitive data type:
+ there are three types 
+1.Object :repersents instance through which we can access members
+2.Array  :represents group of similar values 
+3.RegExp :represents regular expression
+
+D).JS Operators:
+Javascript operators are symbols that are used to perform operations on operands 
+ex: vr sum=10+20;
+there are following types of operators in javascript.
+
+a.Arthmetic Operators
+b.Comparison operators
+c.bitwise operators
+d.logical operators
+e.assignment operators
+f.special operators
+
+a. Arthmetic Operators:
+Arithmetic operators are used to perform arithmetic operations on the operands. The following operators are known as JavaScript arithmetic operators.
+
+Operator	Description	       Example
++	        Addition	       10+20 = 30
+-	       Subtraction	       20-10 = 10
+*	      Multiplication	       10*20 = 200
+/	        Division	       20/10 = 2
+%	     Modulus (Remainder)       20%10 = 0
+++	       Increment	       var a=10; a++; Now a = 11
+--	       Decrement	       var a=10; a--; Now a = 9
+
+b.Comparision Operators:
+
+The JavaScript comparison operator compares the two operands. The comparison operators are as follows:
+
+Operator	Description	                          Example
+==	       Is equal to	                        10==20 = false
+===	      Identical (equal and of same type)	10==20 = false
+!=	       Not equal to	                        10!=20 = true
+!==	       Not Identical	                        20!==20 = false
+>	       Greater than	                        20>10 = true
+>=	       Greater than or equal to	                20>=10 = true
+<	        Less than	                        20<10 = false
+<=	     Less than or equal to	                20<=10 = false
+
+
+c.bitwise operator:
+& -bitwise AND
+| -bitwise OR
+> -bitwise XOR
+~ -bitwise NOT
+<< -bitwise leftshift
+>> -bitwise rightshift
+>>> -bitwise rightshift with zero
+
+d.logical operator:
+&& -logical AND
+|| -logical OR
+!  -logical NOT
+ 
+E).Loops:
+the javascript loops are used to iterate the piece of code using for,while,do while or for-in loops.it makes the code compact.
+it mostly used in array.
+
+there are 4 types of lopps in javascript.
+1.for loop
+2.while loop
+3.do-while loop
+4. for-in loop
+
+1.javascript for loop:
+the javascript for loop iterates the elements for the fixed number of times.it should be used if number of iteration is known.
+
+for(initialization; condition; increment)
+{
+
+ }
+
+
+F).JS function:
+JS functions are used to perform the operations.we can call javascript function many times to reuse the code.
+
+Advantages of JS function:
+1."code reusability":we can call a unction many times so it save the coding.
+2."Less coding":it makes our program compact.we don't need to write many lines of the code each time to perform a common task.
+
+*.javascript function can have 0 or more arguments.
+Ex:
+<html>
+<body>
+<script>  
+function msg(){  
+alert("hello! this is message");  
+}                                                                      
+</script>  
+<input type="button" onclick="msg()" value="call function"/>  
+</body>
+</html>
+
+a).JS function arguments:
+we can call function by pasing the arguments.
+
+Ex:
+<body>
+<script>  
+function getcube(number){  
+alert(number*number*number);  
+}  
+</script>  
+<form>  
+<input type="button" value="click" onclick="getcube(4)"/>  
+</form>  
+</body>
+</html>
+b).function with return value:
+we can call the function that returns a value and use it in our program.
+
+Ex:<html>
+<body>
+<script>  
+function getInfo(){  
+return "hello javatpoint! How r u?";  
+}  
+</script>  
+<script>  
+document.write(getInfo());  
+</script>  
+</body>
+</html>
+
+c).JS function object:
+In JavaScript, the purpose of Function constructor is to create a new Function object. It executes the code globally. However, ]
+if we call the constructor directly, a function is created dynamically but in an unsecured way.
+
+methods:
+Method	     Description
+apply()	    It is used to call a function contains this value and a single array of arguments.
+bind()	    It is used to create a new function.
+call()	    It is used to call a function contains this value and an argument list.
+toString()  It returns the result in a form of a string.
+
+                       /******************************************JavaScript Objects ******************************************/
+A).javascript object:
+  A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+*.JavaScript is an object-based language. Everything is an object in JavaScript.
+*.JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+
+Creating objects in javascript:
+ 
