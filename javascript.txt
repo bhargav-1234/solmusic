@@ -297,4 +297,12 @@ A).javascript object:
 *.JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
 
 Creating objects in javascript:
+there are 3 ways to create objects.
+1.by object literal.
+2.by creating instance of object directly (using new keyword)
+3.by using an obect constructor (using new keyword)
+
+1).javascript object by object literal:
+the syntax of creating object using object literal is given below:
+
  
